@@ -7,6 +7,7 @@ str += greeting;
 return str;
 }
 
+repeatString('hey', 3)
 
 
 module.exports = repeatString
