@@ -1,6 +1,6 @@
 
 const repeatString = function(string, n) {
-  let frase = "";
+  let frase = '';
 while(n > 0) {frase += string; n--}
   return frase
 }
