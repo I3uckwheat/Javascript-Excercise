@@ -1,6 +1,6 @@
-const repeatString = function(string, n) { if (n < 0) return "ERROR";
+const repeatString = function(str, n) { if (n < 0) return "ERROR";
   let frase = "";
-while(n > 0) {frase += string; n--}
+while(n > 0) {frase += str; n--}
   return frase
 }
 
