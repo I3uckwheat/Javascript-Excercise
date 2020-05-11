@@ -1,4 +1,3 @@
-
 const repeatString = function(greeting, num) {
 if (num < 0) return "ERROR"
 let str = "";
