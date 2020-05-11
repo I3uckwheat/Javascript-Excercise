@@ -1,8 +1,11 @@
 
-const repeatString = function(string, n) {
-  let frase = '';
-while(n > 0) {frase += string; n--}
-  return frase
+const repeatString = function(greeting, num) {
+if (num < 0) return ‘ERROR’
+let str = ’ ';
+for (let i = 0; i < num; i++) {
+str += greeting;
+}
+return str;
 }
 
 
